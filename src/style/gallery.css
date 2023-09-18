@@ -1,0 +1,30 @@
+.gallery {
+    padding: 26px 36px 50px;
+}
+
+.img-container {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 32px;
+}
+
+.img-container > img {
+    width: 395px;
+}
+
+.text-container > .heading {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+
+.text-container > .text {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    color: #222;
+    width: 320px;
+    line-height: 17.6px;
+}

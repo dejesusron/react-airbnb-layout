@@ -1,0 +1,16 @@
+.header {
+    height: 79px;
+    width: 550px;
+    background: #ffffff;
+    border-radius: 10px 10px 0 0;
+}
+
+.navbar {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 30px;
+    box-shadow: 0 3px 7.5px rgb(0, 0, 0, 0.1);
+}

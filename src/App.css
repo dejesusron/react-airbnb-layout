@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: #e5e5e5;
+}
+
+.App {
+  width: 550px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.App > .card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 18px;
+  row-gap: 30px;
+  padding-left: 37px;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
